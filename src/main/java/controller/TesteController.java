@@ -34,4 +34,17 @@ public class TesteController {
 	}
 	
 	
+	
+	public void mandarMsg() {
+	
+		System.out.println(nome);
+		System.out.println(mensagem);
+	}
+	
+	public void limpar() {
+		
+		nome="";
+		email="";
+		mensagem="";
+	}
 }
